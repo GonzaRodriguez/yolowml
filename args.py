@@ -7,14 +7,14 @@ from utils.misc_utils import parse_anchors, read_class_names
 import math
 
 ### Some paths
-train_file = './data/my_data/train.txt'  # The path of the training txt file.
-val_file = './data/my_data/val.txt'  # The path of the validation txt file.
-restore_path = './data/darknet_weights/yolov3.ckpt'  # The path of the weights to restore.
+train_file = '/home/nimbix/Desktop/data/yolowml/data/my_data/train.txt'  # The path of the training txt file.
+val_file = '/home/nimbix/Desktop/data/yolowml/data/my_data/val.txt'  # The path of the validation txt file.
+restore_path = '/home/nimbix/Desktop/data/yolowml/data/darknet_weights/yolov3.ckpt'  # The path of the weights to restore.
 save_dir = './checkpoint/'  # The directory of the weights to save.
-log_dir = './data/logs/'  # The directory to store the tensorboard log files.
-progress_log_path = './data/progress.log'  # The path to record the training progress.
+log_dir = '/home/nimbix/Desktop/data/yolowml/data/logs/'  # The directory to store the tensorboard log files.
+progress_log_path = '/home/nimbix/Desktop/data/yolowml/data/progress.log'  # The path to record the training progress.
 anchor_path = '/home/nimbix/Desktop/data/yolowml/data/yolo_anchors.txt'  # The path of the anchor txt file.
-class_name_path = './data/coco.names'  # The path of the class names.
+class_name_path = '/home/nimbix/Desktop/data/yolowml/data/coco.names'  # The path of the class names.
 
 ### Training releated numbers
 batch_size = 6
